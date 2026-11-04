@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Use in 2024</title>
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Internet Use in 2024</h1>
+    <p>Ten selected countries. Same indicator and year.</p >
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Code</th>
+                <th>Year</th>
+                <th>Internet users (% of population)</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <h2>Internet use comparison</h2>
+    <canvas id="internetChart" aria-label="Internet users percentage by country" role="img"></canvas>
+
+    <p>Source: <a href="https://data.worldbank.org/indicator/IT.NET.USER.ZS">World Bank WDI</a>;
+       original provider: ITU. Indicator IT.NET.USER.ZS. License: CC BY 4.0.</p>
+    <p>Internet users: individuals who used the Internet in the last three months.</p>
+    <p>Downloaded 3 November 2026. Data reference year: 2024.</p>
+    <p>Ten selected countries are a teaching sample, not a global ranking.
+       National averages do not show access quality or inequalities within countries.</p>
+
+</body>
+</html>
